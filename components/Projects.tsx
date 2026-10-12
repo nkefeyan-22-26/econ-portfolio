@@ -14,8 +14,8 @@ const projects: Project[] = [
     number: "01",
     title: "Instrumental Variables Replication Project",
     description:
-      "Replicated Angrist & Evans (1998) via 2SLS to estimate the causal effect of family size on labor supply, extended with heterogeneous treatment effects by race. Found that White mothers face the steepest labor supply penalty for a third child.",
-    tech: ["Python 3.10+", "pandas", "numpy", "statsmodels", "linearmodels", "matplotlib", "Jupyter"],
+      "Replicated Angrist & Evans (1998) with 2SLS on 394,840 mothers from the 1980 Census, using same-sex siblings as an instrument for family size, and reproduced the published estimates exactly: a third child reduces mothers' weeks worked by about 5.6 per year, with no detectable effect on husbands. Diagnosed and corrected a sample-construction error in my first version that had tripled the estimate.",
+    tech: ["Python", "pandas", "numpy", "statsmodels", "linearmodels", "matplotlib", "Jupyter"],
     github: "https://github.com/nkefeyan-22-26/child-penalty-iv-replication",
     tag: "Causal Inference",
   },
